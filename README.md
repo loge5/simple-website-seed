@@ -4,23 +4,45 @@ Need a Simple Website? Here is the seed for it.
 
 Includes: 
 
-- jQuery
-- Bootstrap
-- Sass
-- Font Awesome
-- Gulp
+- [jQuery](https://jquery.com/) - Javascript Library
+- [Bootstrap](http://getbootstrap.com/) - Responsive CSS Framework
+- [Sass](sass-lang.com) - CSS preprocessor (extends css with variables and more)
+- [Font Awesome](http://fontawesome.io/) - Nice and free Font-Icons
+- [Gulp](http://gulpjs.com/) - Build-Tool (minify, sass compiler, ...)
 
 ## install
 
-as administrator/root
+as administrator/super user
 
-`npm install -g gulp`
+```
+npm install -g gulp
+```
 
 in project
-`npm install`
+```
+npm install
+```
 
 ## build
-`gulp`
+
+A folder "dist" will be created with all nessassary files.
+
+```
+gulp
+```
 
 for automatic rebuild on changes
-`gulp watch`
+```
+gulp watch
+```
+
+## start editing
+1. Edit
+```javascript
+src/js/main.js //here goes your javascript, you can create/rename files as your wish
+src/sass/main.scss //here goes your sass (or css), you can create/rename files as your wish
+src/index.html //here goes your html
+src/favicon.ico //the little icon in browser, replace it.
+```
+2. Don't forget to rebuild with the command `gulp`
+3. Copy the folder "dist" on your webspace
