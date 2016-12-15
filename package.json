@@ -1,0 +1,37 @@
+{
+  "name": "simple-website-seed",
+  "version": "1.0.0",
+  "description": "website seed with jQuery, Bootstrap, Sass, Gulp, Font Awesome",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loge5/simple-website-seed.git"
+  },
+  "keywords": [
+    "seed",
+    "website",
+    "simple",
+    "jQuery",
+    "Bootstrap",
+    "Sass",
+    "Gulp",
+    "Font Awesome"
+  ],
+  "author": "Rolf Loges",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}
