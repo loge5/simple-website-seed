@@ -1,6 +1,7 @@
 /node_modules/
+/dist/
+/build/
 /.buildpath
 /.project
 /.tern-project
-/dist/
-/build/
+/.settings
