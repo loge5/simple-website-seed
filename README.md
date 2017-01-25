@@ -11,6 +11,11 @@ Includes:
 - [Gulp](http://gulpjs.com/) - Build-Tool (minify, sass compiler, ...)
 
 ## install
+first clone this project
+
+```
+git clone https://github.com/loge5/simple-website-seed.git
+```
 
 as administrator/super user
 
