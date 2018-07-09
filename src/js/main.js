@@ -1,3 +1,3 @@
 function helloWorld(){
-    alert('Hello World');
+    $('#test-alert').toggle();
 }
