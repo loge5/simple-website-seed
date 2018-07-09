@@ -22,7 +22,6 @@ gulp.task('html-copy', function() {
 });
 
 gulp.task('font-copy', function() {
-    gulp.src(['./node_modules/bootstrap/fonts/*']).pipe(gulp.dest('dist/fonts/'));
     gulp.src(['./node_modules/font-awesome/fonts/*']).pipe(gulp.dest('dist/fonts/'));
 });
 
@@ -35,7 +34,7 @@ gulp.task('css-sass', function () {
 gulp.task('css-concat', ['css-sass'],function() {
     return gulp.src(
             [
-                './node_modules/font-awesome/css/font-awesome.css',
+                './node_modules/font-awesome/css/font-awesome.min.css',
                 './node_modules/bootstrap/dist/css/bootstrap.min.css',
                 './node_modules/bootstrap/dist/css/bootstrap.theme.min.css',
                 './build/sass/*.css'
