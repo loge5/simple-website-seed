@@ -43,5 +43,5 @@ src/sass/main.scss //here goes your sass (or css), you can create/rename files a
 src/index.html //here goes your html
 src/favicon.ico //the little icon in browser, replace it.
 ```
-2. Don't forget to rebuild with the command `gulp`
+2. Don't forget to rebuild
 3. Copy the folder "dist" on your webspace
