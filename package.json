@@ -4,6 +4,7 @@
   "description": "website seed with jQuery, Bootstrap, Sass, Gulp, Font Awesome",
   "main": "index.html",
   "scripts": {
+    "build": "node ./node_modules/gulp/bin/gulp.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

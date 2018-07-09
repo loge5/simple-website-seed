@@ -17,12 +17,6 @@ first clone this project
 git clone https://github.com/loge5/simple-website-seed.git
 ```
 
-as administrator/super user
-
-```
-npm install -g gulp
-```
-
 in project
 ```
 npm install
@@ -33,12 +27,12 @@ npm install
 A folder "dist" will be created with all nessassary files.
 
 ```
-gulp
+npm run-script build
 ```
 
 for automatic rebuild on changes
 ```
-gulp watch
+npm run-script build watch
 ```
 
 ## start editing
