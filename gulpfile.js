@@ -36,14 +36,10 @@ function stylesConcat () {
     ]
   )
     .pipe(concat('all.css'))
-    .pipe(gulp.dest('./build/css/'));
-}
-function stylesMinify () {
-  return gulp.src('./build/css/*.css')
     .pipe(cleanCSS({ compatibility: 'ie8' }))
-    .pipe(gulp.dest(paths.styles.dest));
+    .pipe(gulp.dest(paths.styles.dest))
 }
-var styles = gulp.series(stylesSass, stylesConcat, stylesMinify);
+var styles = gulp.series(stylesSass, stylesConcat);
 function scripts () {
   return gulp.src(
     [
