@@ -54,6 +54,7 @@ function scripts () {
     ]
   )
   .pipe(concat('all.js'))
+  .pipe(uglify())
   .pipe(gulp.dest(paths.scripts.dist));
 }
 async function fonts () {
